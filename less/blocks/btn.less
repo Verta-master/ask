@@ -1,0 +1,20 @@
+.btn {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #cbcbcb;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  background-color: @red;
+  box-shadow: 3px 3px 0 0 #cbcbcb;
+  .transition();
+  
+  &:hover,
+  &:active {
+    box-shadow: none;
+    .transition();
+  }
+}

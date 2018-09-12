@@ -1,0 +1,22 @@
+.title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  
+  span {
+    font-weight: 400;
+  }
+  a {
+    font-weight: 400;
+    .transition();
+    
+    &:hover,
+    &:active {
+      color: @red;
+      .transition();
+    }
+  }
+}
