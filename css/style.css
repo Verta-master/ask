@@ -805,6 +805,9 @@ button {
   .wrapper {
     width: 100%;
   }
+  .contacts__info {
+    padding-left: 30px;
+  }
 }
 @media (max-width: 1022px) {
   .about__wrap {
@@ -893,6 +896,17 @@ button {
   .footer__wrap {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+  .contacts__form,
+  .contacts__block {
+    width: 100%;
+  }
+  .contacts__wrap {
+    display: block;
+  }
+  .contacts__info {
+    padding-left: 0;
+    margin-bottom: 50px;
   }
 }
 @media (max-width: 480px) {
