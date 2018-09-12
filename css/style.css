@@ -733,32 +733,42 @@ button {
   padding-left: 135px;
   margin-bottom: 140px;
 }
+.modal__input,
 .contacts__message,
 .contacts__input {
   width: 100%;
   margin-bottom: 30px;
   background-color: #efefef;
 }
+.modal__input::-webkit-input-placeholder,
 .contacts__message::-webkit-input-placeholder,
 .contacts__input::-webkit-input-placeholder {
   opacity: 1;
   text-transform: uppercase;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
 }
+.modal__input:-ms-input-placeholder,
 .contacts__message:-ms-input-placeholder,
 .contacts__input:-ms-input-placeholder {
   opacity: 1;
   text-transform: uppercase;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
 }
+.modal__input::-ms-input-placeholder,
 .contacts__message::-ms-input-placeholder,
 .contacts__input::-ms-input-placeholder {
   opacity: 1;
   text-transform: uppercase;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
 }
+.modal__input::placeholder,
 .contacts__message::placeholder,
 .contacts__input::placeholder {
   opacity: 1;
   text-transform: uppercase;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
 }
+.modal__input,
 .contacts__input {
   height: 40px;
   padding: 0 10px;
@@ -774,6 +784,7 @@ button {
 }
 .btn {
   height: 40px;
+  padding: 0 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -800,6 +811,22 @@ button {
           box-shadow: none;
   -webkit-transition: ease-out 0.3s;
   transition: ease-out 0.3s;
+}
+.modal__title {
+  margin-top: 0;
+  margin-bottom: 35px;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.modal__form {
+  width: 465px;
+}
+.modal__btn {
+  width: 125px;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media (max-width: 1200px) {
   .wrapper {
@@ -907,6 +934,9 @@ button {
   .contacts__info {
     padding-left: 0;
     margin-bottom: 50px;
+  }
+  .modal__form {
+    width: 100%;
   }
 }
 @media (max-width: 480px) {
