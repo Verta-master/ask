@@ -680,6 +680,127 @@ button {
   margin-bottom: 0;
   margin-top: 35px;
 }
+.title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.title span {
+  font-weight: 400;
+}
+.title a {
+  font-weight: 400;
+  -webkit-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+}
+.title a:hover,
+.title a:active {
+  color: #961c00;
+  -webkit-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+}
+.contacts {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.contacts__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.contacts__form {
+  width: 40%;
+  margin-bottom: 15px;
+  padding-top: 10px;
+}
+.contacts__block {
+  width: 58%;
+  padding-top: 50px;
+}
+.contacts__title {
+  margin-bottom: 25px;
+}
+.contacts__info {
+  padding-left: 135px;
+  margin-bottom: 140px;
+}
+.contacts__message,
+.contacts__input {
+  width: 100%;
+  margin-bottom: 30px;
+  background-color: #efefef;
+}
+.contacts__message::-webkit-input-placeholder,
+.contacts__input::-webkit-input-placeholder {
+  opacity: 1;
+  text-transform: uppercase;
+}
+.contacts__message:-ms-input-placeholder,
+.contacts__input:-ms-input-placeholder {
+  opacity: 1;
+  text-transform: uppercase;
+}
+.contacts__message::-ms-input-placeholder,
+.contacts__input::-ms-input-placeholder {
+  opacity: 1;
+  text-transform: uppercase;
+}
+.contacts__message::placeholder,
+.contacts__input::placeholder {
+  opacity: 1;
+  text-transform: uppercase;
+}
+.contacts__input {
+  height: 40px;
+  padding: 0 10px;
+}
+.contacts__message {
+  height: 240px;
+  min-height: 240px;
+  padding: 10px;
+}
+.contacts__btn {
+  width: 125px;
+  margin-left: auto;
+}
+.btn {
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #cbcbcb;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  background-color: #961c00;
+  -webkit-box-shadow: 3px 3px 0 0 #cbcbcb;
+          box-shadow: 3px 3px 0 0 #cbcbcb;
+  -webkit-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+}
+.btn:hover,
+.btn:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+}
 @media (max-width: 1200px) {
   .wrapper {
     width: 100%;
