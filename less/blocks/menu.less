@@ -1,0 +1,46 @@
+.menu__btn {
+  display: none;
+}
+
+.menu__list {
+  .reset();
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu__item {
+  margin-left: 20px;
+}
+
+.menu__link {
+  position: relative;
+  display: block;
+  padding: 40px 20px;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 400;
+  text-transform: uppercase;
+  
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: @red;
+    .transition();
+  }
+  
+  &:hover,
+  &:active,
+  &--active {
+    &::before {
+      width: 100%;
+      .transition();
+    }
+  }
+}
